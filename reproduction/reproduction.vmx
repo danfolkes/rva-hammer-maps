@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "5845"
-	"mapversion" "27"
+	"mapversion" "29"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "27"
+	"mapversion" "29"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -8975,7 +8975,7 @@ world
 		side
 		{
 			"id" "8185"
-			"plane" "(-192 352 72) (-192 352 136) (-128 352 136)"
+			"plane" "(-192 352 70) (-192 352 136) (-128 352 136)"
 			"material" "COALMINES/RED_WALL3_MIDDLE"
 			"uaxis" "[-1 0 0 -128] 0.25"
 			"vaxis" "[0 0 -1 32] 0.25"
@@ -8986,7 +8986,7 @@ world
 		side
 		{
 			"id" "8184"
-			"plane" "(-128 672 72) (-128 672 136) (-192 672 136)"
+			"plane" "(-128 672 70) (-128 672 136) (-192 672 136)"
 			"material" "COALMINES/RED_WALL3_MIDDLE"
 			"uaxis" "[-1 0 0 -128] 0.25"
 			"vaxis" "[0 0 -1 32] 0.25"
@@ -8997,7 +8997,7 @@ world
 		side
 		{
 			"id" "8183"
-			"plane" "(-192 672 72) (-192 672 136) (-192 352 136)"
+			"plane" "(-192 672 70) (-192 672 136) (-192 352 136)"
 			"material" "COALMINES/RED_WALL3_MIDDLE"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 32] 0.25"
@@ -9008,7 +9008,7 @@ world
 		side
 		{
 			"id" "8182"
-			"plane" "(-128 352 72) (-128 352 136) (-128 672 136)"
+			"plane" "(-128 352 70) (-128 352 136) (-128 672 136)"
 			"material" "COALMINES/RED_WALL3_MIDDLE"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 32] 0.25"
@@ -9019,7 +9019,7 @@ world
 		side
 		{
 			"id" "8181"
-			"plane" "(-192 352 72) (-128 352 72) (-128 672 72)"
+			"plane" "(-128 672 70) (-192 672 70) (-192 352 70)"
 			"material" "COALMINES/RED_WALL3_MIDDLE"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[1 0 0 128] 0.25"
@@ -9041,7 +9041,7 @@ world
 		side
 		{
 			"id" "8192"
-			"plane" "(-192 352 -120) (-128 352 -120) (-128 672 -120)"
+			"plane" "(-128 672 -128) (-192 672 -128) (-192 352 -128)"
 			"material" "COALMINES/RED_WALL3_MIDDLE"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[1 0 0 128] 0.25"
@@ -9052,7 +9052,7 @@ world
 		side
 		{
 			"id" "8191"
-			"plane" "(-128 352 -56) (-128 352 -120) (-192 352 -120)"
+			"plane" "(-128 352 -62) (-128 352 -128) (-192 352 -128)"
 			"material" "COALMINES/RED_WALL3_MIDDLE"
 			"uaxis" "[-1 0 0 -128] 0.25"
 			"vaxis" "[0 0 -1 32] 0.25"
@@ -9063,7 +9063,7 @@ world
 		side
 		{
 			"id" "8190"
-			"plane" "(-192 672 -56) (-192 672 -120) (-128 672 -120)"
+			"plane" "(-192 672 -62) (-192 672 -128) (-128 672 -128)"
 			"material" "COALMINES/RED_WALL3_MIDDLE"
 			"uaxis" "[-1 0 0 -128] 0.25"
 			"vaxis" "[0 0 -1 32] 0.25"
@@ -9074,7 +9074,7 @@ world
 		side
 		{
 			"id" "8189"
-			"plane" "(-192 352 -56) (-192 352 -120) (-192 672 -120)"
+			"plane" "(-192 352 -62) (-192 352 -128) (-192 672 -128)"
 			"material" "COALMINES/RED_WALL3_MIDDLE"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 32] 0.25"
@@ -9085,7 +9085,7 @@ world
 		side
 		{
 			"id" "8188"
-			"plane" "(-128 672 -56) (-128 672 -120) (-128 352 -120)"
+			"plane" "(-128 672 -62) (-128 672 -128) (-128 352 -128)"
 			"material" "COALMINES/RED_WALL3_MIDDLE"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 32] 0.25"
@@ -9096,7 +9096,7 @@ world
 		side
 		{
 			"id" "8187"
-			"plane" "(-128 352 -56) (-192 352 -56) (-192 672 -56)"
+			"plane" "(-128 352 -62) (-192 352 -62) (-192 672 -62)"
 			"material" "COALMINES/RED_WALL3_MIDDLE"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[1 0 0 128] 0.25"
@@ -9118,7 +9118,7 @@ world
 		side
 		{
 			"id" "8198"
-			"plane" "(-128 352 72) (-128 352 -56) (-192 352 -56)"
+			"plane" "(-128 352 70) (-128 352 -62) (-192 352 -62)"
 			"material" "COALMINES/RED_WALL3_MIDDLE"
 			"uaxis" "[-1 0 0 -128] 0.25"
 			"vaxis" "[0 0 -1 32] 0.25"
@@ -9129,7 +9129,7 @@ world
 		side
 		{
 			"id" "8197"
-			"plane" "(-192 352 72) (-192 352 -56) (-192 432 -56)"
+			"plane" "(-192 352 70) (-192 352 -62) (-192 432 -62)"
 			"material" "COALMINES/RED_WALL3_MIDDLE"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 32] 0.25"
@@ -9140,7 +9140,7 @@ world
 		side
 		{
 			"id" "8196"
-			"plane" "(-128 432 -56) (-128 352 -56) (-128 352 72)"
+			"plane" "(-128 432 -62) (-128 352 -62) (-128 352 70)"
 			"material" "COALMINES/RED_WALL3_MIDDLE"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 32] 0.25"
@@ -9151,7 +9151,7 @@ world
 		side
 		{
 			"id" "8195"
-			"plane" "(-128 432 72) (-128 352 72) (-192 352 72)"
+			"plane" "(-128 352 70) (-192 352 70) (-192 432 70)"
 			"material" "COALMINES/RED_WALL3_MIDDLE"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[1 0 0 128] 0.25"
@@ -9162,7 +9162,7 @@ world
 		side
 		{
 			"id" "8194"
-			"plane" "(-192 432 -56) (-192 352 -56) (-128 352 -56)"
+			"plane" "(-192 432 -62) (-192 352 -62) (-128 352 -62)"
 			"material" "COALMINES/RED_WALL3_MIDDLE"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[1 0 0 128] 0.25"
@@ -9173,7 +9173,7 @@ world
 		side
 		{
 			"id" "8193"
-			"plane" "(-192 432 72) (-192 432 -56) (-128 432 -56)"
+			"plane" "(-192 432 70) (-192 432 -62) (-128 432 -62)"
 			"material" "COALMINES/RED_WALL3_MIDDLE"
 			"uaxis" "[-1 0 0 -128] 0.25"
 			"vaxis" "[0 0 -1 32] 0.25"
@@ -9195,7 +9195,7 @@ world
 		side
 		{
 			"id" "8204"
-			"plane" "(-192 672 72) (-192 672 -56) (-128 672 -56)"
+			"plane" "(-192 672 70) (-192 672 -62) (-128 672 -62)"
 			"material" "COALMINES/RED_WALL3_MIDDLE"
 			"uaxis" "[-1 0 0 -128] 0.25"
 			"vaxis" "[0 0 -1 32] 0.25"
@@ -9206,7 +9206,7 @@ world
 		side
 		{
 			"id" "8203"
-			"plane" "(-192 592 -56) (-192 672 -56) (-192 672 72)"
+			"plane" "(-192 592 -62) (-192 672 -62) (-192 672 70)"
 			"material" "COALMINES/RED_WALL3_MIDDLE"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 32] 0.25"
@@ -9217,7 +9217,7 @@ world
 		side
 		{
 			"id" "8202"
-			"plane" "(-128 672 72) (-128 672 -56) (-128 592 -56)"
+			"plane" "(-128 672 70) (-128 672 -62) (-128 592 -62)"
 			"material" "COALMINES/RED_WALL3_MIDDLE"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 32] 0.25"
@@ -9228,7 +9228,7 @@ world
 		side
 		{
 			"id" "8201"
-			"plane" "(-192 592 72) (-192 672 72) (-128 672 72)"
+			"plane" "(-192 592 70) (-192 672 70) (-128 672 70)"
 			"material" "COALMINES/RED_WALL3_MIDDLE"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[1 0 0 128] 0.25"
@@ -9239,7 +9239,7 @@ world
 		side
 		{
 			"id" "8200"
-			"plane" "(-128 592 -56) (-128 672 -56) (-192 672 -56)"
+			"plane" "(-128 672 -62) (-192 672 -62) (-192 592 -62)"
 			"material" "COALMINES/RED_WALL3_MIDDLE"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[1 0 0 128] 0.25"
@@ -9250,7 +9250,7 @@ world
 		side
 		{
 			"id" "8199"
-			"plane" "(-128 592 72) (-128 592 -56) (-192 592 -56)"
+			"plane" "(-128 592 70) (-128 592 -62) (-192 592 -62)"
 			"material" "COALMINES/RED_WALL3_MIDDLE"
 			"uaxis" "[-1 0 0 -128] 0.25"
 			"vaxis" "[0 0 -1 32] 0.25"
@@ -40270,7 +40270,7 @@ world
 		side
 		{
 			"id" "12302"
-			"plane" "(869 1312 640) (869 1408 640) (1229 1408 640)"
+			"plane" "(869 1312 672) (869 1408 672) (1229 1408 672)"
 			"material" "COALMINES/RED_WALL3_MIDDLE"
 			"uaxis" "[1 0 0 692] 0.25"
 			"vaxis" "[0 -1 0 -353.353] 0.25"
@@ -40281,7 +40281,7 @@ world
 		side
 		{
 			"id" "12301"
-			"plane" "(869 1408 536) (869 1408 640) (869 1312 640)"
+			"plane" "(869 1408 560) (869 1408 672) (869 1312 672)"
 			"material" "COALMINES/RED_WALL3_MIDDLE"
 			"uaxis" "[0 1 0 353.353] 0.25"
 			"vaxis" "[0 0 -1 640] 0.25"
@@ -40292,7 +40292,7 @@ world
 		side
 		{
 			"id" "12300"
-			"plane" "(1229 1312 536) (1229 1312 640) (1229 1408 640)"
+			"plane" "(1229 1312 560) (1229 1312 672) (1229 1408 672)"
 			"material" "COALMINES/RED_WALL3_MIDDLE"
 			"uaxis" "[0 1 0 353.353] 0.25"
 			"vaxis" "[0 0 -1 640] 0.25"
@@ -40303,7 +40303,7 @@ world
 		side
 		{
 			"id" "12299"
-			"plane" "(1229 1408 536) (1229 1408 640) (869 1408 640)"
+			"plane" "(1229 1408 560) (1229 1408 672) (869 1408 672)"
 			"material" "COALMINES/RED_WALL3_MIDDLE"
 			"uaxis" "[1 0 0 692] 0.25"
 			"vaxis" "[0 0 -1 640] 0.25"
@@ -40314,7 +40314,7 @@ world
 		side
 		{
 			"id" "12298"
-			"plane" "(869 1312 536) (869 1312 640) (1229 1312 640)"
+			"plane" "(869 1312 560) (869 1312 672) (1229 1312 672)"
 			"material" "COALMINES/RED_WALL3_MIDDLE"
 			"uaxis" "[1 0 0 692] 0.25"
 			"vaxis" "[0 0 -1 640] 0.25"
@@ -40325,7 +40325,7 @@ world
 		side
 		{
 			"id" "12297"
-			"plane" "(869 1408 536) (869 1312 536) (1229 1312 536)"
+			"plane" "(869 1408 560) (869 1312 560) (1229 1312 560)"
 			"material" "COALMINES/RED_WALL3_MIDDLE"
 			"uaxis" "[1 0 0 692] 0.25"
 			"vaxis" "[0 -1 0 -353.353] 0.25"
@@ -40358,7 +40358,7 @@ world
 		side
 		{
 			"id" "12307"
-			"plane" "(869 1312 328) (869 1312 224) (869 1408 224)"
+			"plane" "(869 1312 336) (869 1312 224) (869 1408 224)"
 			"material" "COALMINES/RED_WALL3_MIDDLE"
 			"uaxis" "[0 1 0 353.353] 0.25"
 			"vaxis" "[0 0 -1 640] 0.25"
@@ -40369,7 +40369,7 @@ world
 		side
 		{
 			"id" "12306"
-			"plane" "(1229 1408 328) (1229 1408 224) (1229 1312 224)"
+			"plane" "(1229 1408 336) (1229 1408 224) (1229 1312 224)"
 			"material" "COALMINES/RED_WALL3_MIDDLE"
 			"uaxis" "[0 1 0 353.353] 0.25"
 			"vaxis" "[0 0 -1 640] 0.25"
@@ -40380,7 +40380,7 @@ world
 		side
 		{
 			"id" "12305"
-			"plane" "(869 1408 328) (869 1408 224) (1229 1408 224)"
+			"plane" "(869 1408 336) (869 1408 224) (1229 1408 224)"
 			"material" "COALMINES/RED_WALL3_MIDDLE"
 			"uaxis" "[1 0 0 692] 0.25"
 			"vaxis" "[0 0 -1 640] 0.25"
@@ -40391,7 +40391,7 @@ world
 		side
 		{
 			"id" "12304"
-			"plane" "(1229 1312 328) (1229 1312 224) (869 1312 224)"
+			"plane" "(1229 1312 336) (1229 1312 224) (869 1312 224)"
 			"material" "COALMINES/RED_WALL3_MIDDLE"
 			"uaxis" "[1 0 0 692] 0.25"
 			"vaxis" "[0 0 -1 640] 0.25"
@@ -40402,7 +40402,7 @@ world
 		side
 		{
 			"id" "12303"
-			"plane" "(869 1312 328) (869 1408 328) (1229 1408 328)"
+			"plane" "(869 1312 336) (869 1408 336) (1229 1408 336)"
 			"material" "COALMINES/RED_WALL3_MIDDLE"
 			"uaxis" "[1 0 0 692] 0.25"
 			"vaxis" "[0 -1 0 -353.353] 0.25"
@@ -40424,7 +40424,7 @@ world
 		side
 		{
 			"id" "12314"
-			"plane" "(869 1312 536) (869 1312 328) (869 1408 328)"
+			"plane" "(869 1312 560) (869 1312 336) (869 1408 336)"
 			"material" "COALMINES/RED_WALL3_MIDDLE"
 			"uaxis" "[0 1 0 353.353] 0.25"
 			"vaxis" "[0 0 -1 640] 0.25"
@@ -40435,7 +40435,7 @@ world
 		side
 		{
 			"id" "12313"
-			"plane" "(869 1408 536) (869 1408 328) (959 1408 328)"
+			"plane" "(869 1408 560) (869 1408 336) (959 1408 336)"
 			"material" "COALMINES/RED_WALL3_MIDDLE"
 			"uaxis" "[1 0 0 692] 0.25"
 			"vaxis" "[0 0 -1 640] 0.25"
@@ -40446,7 +40446,7 @@ world
 		side
 		{
 			"id" "12312"
-			"plane" "(959 1312 328) (869 1312 328) (869 1312 536)"
+			"plane" "(959 1312 336) (869 1312 336) (869 1312 560)"
 			"material" "COALMINES/RED_WALL3_MIDDLE"
 			"uaxis" "[1 0 0 692] 0.25"
 			"vaxis" "[0 0 -1 640] 0.25"
@@ -40457,7 +40457,7 @@ world
 		side
 		{
 			"id" "12311"
-			"plane" "(959 1312 536) (869 1312 536) (869 1408 536)"
+			"plane" "(959 1312 560) (869 1312 560) (869 1408 560)"
 			"material" "COALMINES/RED_WALL3_MIDDLE"
 			"uaxis" "[1 0 0 692] 0.25"
 			"vaxis" "[0 -1 0 -353.353] 0.25"
@@ -40468,7 +40468,7 @@ world
 		side
 		{
 			"id" "12310"
-			"plane" "(959 1408 328) (869 1408 328) (869 1312 328)"
+			"plane" "(959 1408 336) (869 1408 336) (869 1312 336)"
 			"material" "COALMINES/RED_WALL3_MIDDLE"
 			"uaxis" "[1 0 0 692] 0.25"
 			"vaxis" "[0 -1 0 -353.353] 0.25"
@@ -40479,7 +40479,7 @@ world
 		side
 		{
 			"id" "12309"
-			"plane" "(959 1408 536) (959 1408 328) (959 1312 328)"
+			"plane" "(959 1408 560) (959 1408 336) (959 1312 336)"
 			"material" "COALMINES/RED_WALL3_MIDDLE"
 			"uaxis" "[0 1 0 353.353] 0.25"
 			"vaxis" "[0 0 -1 640] 0.25"
@@ -40501,7 +40501,7 @@ world
 		side
 		{
 			"id" "12320"
-			"plane" "(1229 1408 536) (1229 1408 328) (1229 1312 328)"
+			"plane" "(1229 1408 560) (1229 1408 336) (1229 1312 336)"
 			"material" "COALMINES/RED_WALL3_MIDDLE"
 			"uaxis" "[0 1 0 353.353] 0.25"
 			"vaxis" "[0 0 -1 640] 0.25"
@@ -40512,7 +40512,7 @@ world
 		side
 		{
 			"id" "12319"
-			"plane" "(1139 1408 328) (1229 1408 328) (1229 1408 536)"
+			"plane" "(1139 1408 336) (1229 1408 336) (1229 1408 560)"
 			"material" "COALMINES/RED_WALL3_MIDDLE"
 			"uaxis" "[1 0 0 692] 0.25"
 			"vaxis" "[0 0 -1 640] 0.25"
@@ -40523,7 +40523,7 @@ world
 		side
 		{
 			"id" "12318"
-			"plane" "(1229 1312 536) (1229 1312 328) (1139 1312 328)"
+			"plane" "(1229 1312 560) (1229 1312 336) (1139 1312 336)"
 			"material" "COALMINES/RED_WALL3_MIDDLE"
 			"uaxis" "[1 0 0 692] 0.25"
 			"vaxis" "[0 0 -1 640] 0.25"
@@ -40534,7 +40534,7 @@ world
 		side
 		{
 			"id" "12317"
-			"plane" "(1139 1408 536) (1229 1408 536) (1229 1312 536)"
+			"plane" "(1139 1408 560) (1229 1408 560) (1229 1312 560)"
 			"material" "COALMINES/RED_WALL3_MIDDLE"
 			"uaxis" "[1 0 0 692] 0.25"
 			"vaxis" "[0 -1 0 -353.353] 0.25"
@@ -40545,7 +40545,7 @@ world
 		side
 		{
 			"id" "12316"
-			"plane" "(1139 1312 328) (1229 1312 328) (1229 1408 328)"
+			"plane" "(1139 1312 336) (1229 1312 336) (1229 1408 336)"
 			"material" "COALMINES/RED_WALL3_MIDDLE"
 			"uaxis" "[1 0 0 692] 0.25"
 			"vaxis" "[0 -1 0 -353.353] 0.25"
@@ -40556,7 +40556,7 @@ world
 		side
 		{
 			"id" "12315"
-			"plane" "(1139 1312 536) (1139 1312 328) (1139 1408 328)"
+			"plane" "(1139 1312 560) (1139 1312 336) (1139 1408 336)"
 			"material" "COALMINES/RED_WALL3_MIDDLE"
 			"uaxis" "[0 1 0 353.353] 0.25"
 			"vaxis" "[0 0 -1 640] 0.25"
@@ -53188,9 +53188,65 @@ entity
 		"logicalpos" "[500 1500]"
 	}
 }
+entity
+{
+	"id" "15899"
+	"classname" "info_node"
+	"nodeid" "1"
+	"origin" "119.471 3146.72 321"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 2000]"
+	}
+}
+entity
+{
+	"id" "15924"
+	"classname" "infodecal"
+	"texture" "decals/decal_signroute007a"
+	"origin" "-233.898 476.325 -40"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 3500]"
+	}
+}
+entity
+{
+	"id" "15927"
+	"classname" "infodecal"
+	"texture" "decals/decal_signroute007b"
+	"origin" "-265.538 479.548 -32"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 4000]"
+	}
+}
+entity
+{
+	"id" "15933"
+	"classname" "infodecal"
+	"texture" "decals/decal_signroute007j"
+	"origin" "-307.965 496.44 -24"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 5000]"
+	}
+}
 cameras
 {
-	"activecamera" "3"
+	"activecamera" "4"
 	camera
 	{
 		"position" "[269.237 734.803 361.188]"
@@ -53210,6 +53266,11 @@ cameras
 	{
 		"position" "[58.3958 3267.78 398.462]"
 		"look" "[140.532 2886.87 318.475]"
+	}
+	camera
+	{
+		"position" "[22.0539 -299.475 110.511]"
+		"look" "[-23.6363 100.001 88.0313]"
 	}
 }
 cordon
