@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "5845"
-	"mapversion" "32"
+	"mapversion" "45"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "32"
+	"nGridSpacing" "8"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "32"
+	"mapversion" "45"
 	"classname" "worldspawn"
 	"chaptertitle" "chap title message"
 	"detailmaterial" "detail/detailsprites"
@@ -50365,6 +50365,149 @@ world
 			"visgroupautoshown" "1"
 		}
 	}
+	solid
+	{
+		"id" "16328"
+		side
+		{
+			"id" "15795"
+			"plane" "(-36 -548 -25.7778) (-28 -556 -25.7778) (-20 -548 -25.7778)"
+			"material" "EGYPT/FLAT_WALL_SKINNY_01"
+			"uaxis" "[1 0 0 341.333] 0.046875"
+			"vaxis" "[0 -1 0 -42.6667] 0.1875"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "15796"
+			"plane" "(-28 -548 24) (-28 -540 -25.7778) (-20 -548 -25.7778)"
+			"material" "EGYPT/FLAT_WALL_SKINNY_01"
+			"uaxis" "[0 1 0 170.667] 0.046875"
+			"vaxis" "[0 0 -1 54.8571] 0.4375"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "15797"
+			"plane" "(-28 -548 24) (-20 -548 -25.7778) (-28 -556 -25.7778)"
+			"material" "EGYPT/FLAT_WALL_SKINNY_01"
+			"uaxis" "[0 1 0 170.667] 0.046875"
+			"vaxis" "[0 0 -1 54.8571] 0.4375"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "15798"
+			"plane" "(-28 -548 24) (-28 -556 -25.7778) (-36 -548 -25.7778)"
+			"material" "EGYPT/FLAT_WALL_SKINNY_01"
+			"uaxis" "[0 1 0 170.667] 0.046875"
+			"vaxis" "[0 0 -1 54.8571] 0.4375"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "15799"
+			"plane" "(-28 -548 24) (-36 -548 -25.7778) (-28 -540 -25.7778)"
+			"material" "EGYPT/FLAT_WALL_SKINNY_01"
+			"uaxis" "[0 1 0 170.667] 0.046875"
+			"vaxis" "[0 0 -1 54.8571] 0.4375"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "181 242 0"
+			"groupid" "16621"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "16332"
+		side
+		{
+			"id" "15805"
+			"plane" "(-40 -536 -25.7778) (-16 -536 -25.7778) (-16 -560 -25.7778)"
+			"material" "EGYPT/FLAT_WALL_SKINNY_01"
+			"uaxis" "[1 0 0 341.333] 0.046875"
+			"vaxis" "[0 -1 0 -42.6667] 0.1875"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "15806"
+			"plane" "(-40 -560 -32) (-16 -560 -32) (-16 -536 -32)"
+			"material" "EGYPT/FLAT_WALL_SKINNY_01"
+			"uaxis" "[1 0 0 341.333] 0.046875"
+			"vaxis" "[0 -1 0 -42.6667] 0.1875"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "15807"
+			"plane" "(-40 -536 -25.7778) (-40 -560 -25.7778) (-40 -560 -32)"
+			"material" "EGYPT/FLAT_WALL_SKINNY_01"
+			"uaxis" "[0 1 0 170.667] 0.046875"
+			"vaxis" "[0 0 -1 54.8571] 0.4375"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "15808"
+			"plane" "(-16 -536 -32) (-16 -560 -32) (-16 -560 -25.7778)"
+			"material" "EGYPT/FLAT_WALL_SKINNY_01"
+			"uaxis" "[0 1 0 170.667] 0.046875"
+			"vaxis" "[0 0 -1 54.8571] 0.4375"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "15809"
+			"plane" "(-16 -536 -25.7778) (-40 -536 -25.7778) (-40 -536 -32)"
+			"material" "EGYPT/FLAT_WALL_SKINNY_01"
+			"uaxis" "[1 0 0 341.333] 0.046875"
+			"vaxis" "[0 0 -1 54.8571] 0.4375"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "15810"
+			"plane" "(-16 -560 -32) (-40 -560 -32) (-40 -560 -25.7778)"
+			"material" "EGYPT/FLAT_WALL_SKINNY_01"
+			"uaxis" "[1 0 0 341.333] 0.046875"
+			"vaxis" "[0 0 -1 54.8571] 0.4375"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "181 242 0"
+			"groupid" "16621"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
 	group
 	{
 		"id" "273"
@@ -52215,13 +52358,53 @@ world
 			"visgroupautoshown" "1"
 		}
 	}
+	group
+	{
+		"id" "16336"
+		editor
+		{
+			"color" "227 100 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "16354"
+		editor
+		{
+			"color" "217 230 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "16357"
+		editor
+		{
+			"color" "187 184 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "16621"
+		editor
+		{
+			"color" "181 242 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
 }
 entity
 {
 	"id" "10659"
 	"classname" "info_player_teamspawn"
 	"angles" "0 0 0"
-	"origin" "0 -224 -64"
+	"origin" "0 -224 -32"
 	editor
 	{
 		"color" "220 30 220"
@@ -53249,58 +53432,139 @@ entity
 }
 entity
 {
-	"id" "15948"
-	"classname" "point_message"
-	"message" "testicle"
-	"radius" "400"
-	"spawnflags" "0"
-	"targetname" "pm1"
-	connections
-	{
-		"OnUser1" "pm1,Enable,,0,-1"
-	}
-	"origin" "0 64 0"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 6000]"
-	}
-}
-entity
-{
-	"id" "15952"
-	"classname" "point_message"
-	"message" "vas deferens"
-	"radius" "128"
-	"spawnflags" "0"
-	"origin" "0 160 -55"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 6000]"
-	}
-}
-entity
-{
 	"id" "15968"
 	"classname" "logic_auto"
 	"spawnflags" "1"
-	connections
-	{
-		"OnMapSpawn" "pm1,Enable,,0,-1"
-		"OnMapSpawn" "pm1,AddOutput,wowwwww,1,-1"
-	}
-	"origin" "32 64 -55"
+	"origin" "32 -480 0"
 	editor
 	{
 		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 6500]"
+	}
+}
+entity
+{
+	"id" "16188"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "240 110 0"
+	"effect" "1"
+	"fadein" "1.5"
+	"fadeout" ".5"
+	"fxtime" "0.25"
+	"holdtime" "5"
+	"message" "The primary functions of the testes are to produce sperm (spermatogenesis) and to produce androgens, primarily testosterone."
+	"spawnflags" "1"
+	"targetname" "gt_tst_primary_function01"
+	"x" "-1"
+	"y" "-1"
+	"origin" "-32 -512 19.9689"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "16266"
+	"classname" "trigger_multiple"
+	"origin" "-28 -548 8"
+	"spawnflags" "1"
+	"StartDisabled" "0"
+	"wait" "1"
+	connections
+	{
+		"OnStartTouchAll" "gt_tst_primary_function01,Display,,0,-1"
+	}
+	solid
+	{
+		"id" "16263"
+		side
+		{
+			"id" "15788"
+			"plane" "(-56 -520 48) (0 -520 48) (0 -576 48)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -32] 0.25"
+			"vaxis" "[0 -1 0 -32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "15787"
+			"plane" "(-56 -576 -32) (0 -576 -32) (0 -520 -32)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -32] 0.25"
+			"vaxis" "[0 -1 0 -32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "15786"
+			"plane" "(-56 -520 48) (-56 -576 48) (-56 -576 -32)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 32] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "15785"
+			"plane" "(0 -520 -32) (0 -576 -32) (0 -576 48)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 32] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "15784"
+			"plane" "(0 -520 48) (-56 -520 48) (-56 -520 -32)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -32] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "15783"
+			"plane" "(0 -576 -32) (-56 -576 -32) (-56 -576 48)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -32] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "181 242 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "181 242 0"
+		"groupid" "16621"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
 	}
 }
 cameras
@@ -53328,8 +53592,8 @@ cameras
 	}
 	camera
 	{
-		"position" "[39.0114 -8.65614 4.62238]"
-		"look" "[-152.507 343.71 -31.876]"
+		"position" "[-28 -408 8]"
+		"look" "[-28 -5.29272 8]"
 	}
 }
 cordon
