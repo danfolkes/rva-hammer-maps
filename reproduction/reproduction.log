@@ -2094,3 +2094,920 @@ No vis information, direct lighting only.
 0 Square Feet [0.00 Square Inches]
 76 direct lights
 0...1...2...3...4...5...6
+
+
+materialPath: c:\program files (x86)\steam\steamapps\danfolkes\team fortress 2\tf\materials
+Loading c:\users\dfolkes\documents\github\rva-hammer-maps\reproduction\reproduction.vmf
+Can't find surfaceprop stone for material EGYPT/FLAT_WALL_SKINNY_01, using default
+Patching WVT material: maps/reproduction/brick/blendcobbletocobblesnow001_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-480.0 656.0 -47.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 5315: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-480.0 656.0 0.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 5315: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-480.0 656.0 51.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 5315: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-464.0 640.0 -55.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 5315: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-432.0 640.0 -59.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 5315: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (0.0 512.0 204.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 5357: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (0.0 512.0 196.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 5352: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (0.0 512.0 188.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 5347: 
+
+*** Suppressing further FindPortalSide errors.... ***
+0...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\dfolkes\documents\github\rva-hammer-maps\reproduction\reproduction.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (263716 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 391 texinfos to 365
+Reduced 9 texdatas to 8 (262 bytes to 229)
+Writing c:\users\dfolkes\documents\github\rva-hammer-maps\reproduction\reproduction.bsp
+4 seconds elapsed
+
+
+
+4 threads
+reading c:\users\dfolkes\documents\github\rva-hammer-maps\reproduction\reproduction.bsp
+reading c:\users\dfolkes\documents\github\rva-hammer-maps\reproduction\reproduction.prt
+2118 portalclusters
+7227 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 255507 visible clusters (10.80%)
+Total clusters visible: 2366255
+Average clusters visible: 1117
+Building PAS...
+Average clusters audible: 1850
+visdatasize:980297  compressed from 1152192
+writing c:\users\dfolkes\documents\github\rva-hammer-maps\reproduction\reproduction.bsp
+4 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading c:\users\dfolkes\documents\github\rva-hammer-maps\reproduction\reproduction.bsp
+6235 faces
+2 degenerate faces
+1148590 square feet [165397008.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+6233 patches before subdivision
+zero area child patch
+75171 patches after subdivision
+76 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 9117509, max 1112
+transfer lists:  69.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0292 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/1024           96/49152    ( 0.2%) 
+brushes                713/8192         8556/98304    ( 8.7%) 
+brushsides            5731/65536       45848/524288   ( 8.7%) 
+planes                4462/65536       89240/1310720  ( 6.8%) 
+vertexes              9106/65536      109272/786432   (13.9%) 
+nodes                 4371/65536      139872/2097152  ( 6.7%) 
+texinfos               365/12288       26280/884736   ( 3.0%) 
+texdata                  8/2048          256/65536    ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 6235/65536      349160/3670016  ( 9.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2624/65536      146944/3670016  ( 4.0%) 
+leaves                4374/65536      139968/2097152  ( 6.7%) 
+leaffaces             6859/65536       13718/131072   (10.5%) 
+leafbrushes           3970/65536        7940/131072   ( 6.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            39635/512000     158540/2048000  ( 7.7%) 
+edges                21537/256000      86148/1024000  ( 8.4%) 
+LDR worldlights         76/8192         6688/720896   ( 0.9%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            494/32768        4940/327680   ( 1.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          6828/65536       13656/131072   (10.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     2233108/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      980297/16777216 ( 5.8%) 
+entdata               [variable]       20539/393216   ( 5.2%) 
+LDR ambient table     4374/65536       17496/262144   ( 6.7%) 
+HDR ambient table     4374/65536       17496/262144   ( 6.7%) 
+LDR leaf ambient      2124/65536       59472/1835008  ( 3.2%) 
+HDR leaf ambient      4374/65536      122472/1835008  ( 6.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      106104/0        ( 0.0%) 
+physics               [variable]      263716/4194304  ( 6.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 16521
+Writing c:\users\dfolkes\documents\github\rva-hammer-maps\reproduction\reproduction.bsp
+1 minute, 1 second elapsed
+
+
+
+materialPath: c:\program files (x86)\steam\steamapps\danfolkes\team fortress 2\tf\materials
+Loading c:\users\dfolkes\documents\github\rva-hammer-maps\reproduction\reproduction.vmf
+Can't find surfaceprop stone for material EGYPT/FLAT_WALL_SKINNY_01, using default
+Patching WVT material: maps/reproduction/brick/blendcobbletocobblesnow001_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-480.0 656.0 -47.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 5315: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-480.0 656.0 0.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 5315: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-480.0 656.0 51.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 5315: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-464.0 640.0 -55.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 5315: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-432.0 640.0 -59.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 5315: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (0.0 512.0 204.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 5357: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (0.0 512.0 196.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 5352: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (0.0 512.0 188.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 5347: 
+
+*** Suppressing further FindPortalSide errors.... ***
+0...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\dfolkes\documents\github\rva-hammer-maps\reproduction\reproduction.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (263716 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 391 texinfos to 365
+Reduced 9 texdatas to 8 (262 bytes to 229)
+Writing c:\users\dfolkes\documents\github\rva-hammer-maps\reproduction\reproduction.bsp
+3 seconds elapsed
+
+
+
+materialPath: c:\program files (x86)\steam\steamapps\danfolkes\team fortress 2\tf\materials
+Loading c:\users\dfolkes\documents\github\rva-hammer-maps\reproduction\reproduction.vmf
+Can't find surfaceprop stone for material EGYPT/FLAT_WALL_SKINNY_01, using default
+Patching WVT material: maps/reproduction/brick/blendcobbletocobblesnow001_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-480.0 656.0 -47.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 5315: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-480.0 656.0 0.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 5315: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-480.0 656.0 51.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 5315: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-464.0 640.0 -55.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 5315: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-432.0 640.0 -59.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 5315: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (0.0 512.0 204.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 5357: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (0.0 512.0 196.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 5352: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (0.0 512.0 188.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 5347: 
+
+*** Suppressing further FindPortalSide errors.... ***
+0...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\dfolkes\documents\github\rva-hammer-maps\reproduction\reproduction.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (263716 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 391 texinfos to 365
+Reduced 9 texdatas to 8 (262 bytes to 229)
+Writing c:\users\dfolkes\documents\github\rva-hammer-maps\reproduction\reproduction.bsp
+3 seconds elapsed
+
+
+
+4 threads
+reading c:\users\dfolkes\documents\github\rva-hammer-maps\reproduction\reproduction.bsp
+reading c:\users\dfolkes\documents\github\rva-hammer-maps\reproduction\reproduction.prt
+2118 portalclusters
+7227 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 255507 visible clusters (10.80%)
+Total clusters visible: 2366255
+Average clusters visible: 1117
+Building PAS...
+Average clusters audible: 1850
+visdatasize:980297  compressed from 1152192
+writing c:\users\dfolkes\documents\github\rva-hammer-maps\reproduction\reproduction.bsp
+5 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading c:\users\dfolkes\documents\github\rva-hammer-maps\reproduction\reproduction.bsp
+6235 faces
+2 degenerate faces
+1148590 square feet [165397008.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+6233 patches before subdivision
+zero area child patch
+75171 patches after subdivision
+76 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 9117509, max 1112
+transfer lists:  69.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0291 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/1024           96/49152    ( 0.2%) 
+brushes                713/8192         8556/98304    ( 8.7%) 
+brushsides            5731/65536       45848/524288   ( 8.7%) 
+planes                4462/65536       89240/1310720  ( 6.8%) 
+vertexes              9106/65536      109272/786432   (13.9%) 
+nodes                 4371/65536      139872/2097152  ( 6.7%) 
+texinfos               365/12288       26280/884736   ( 3.0%) 
+texdata                  8/2048          256/65536    ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 6235/65536      349160/3670016  ( 9.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2624/65536      146944/3670016  ( 4.0%) 
+leaves                4374/65536      139968/2097152  ( 6.7%) 
+leaffaces             6859/65536       13718/131072   (10.5%) 
+leafbrushes           3970/65536        7940/131072   ( 6.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            39635/512000     158540/2048000  ( 7.7%) 
+edges                21537/256000      86148/1024000  ( 8.4%) 
+LDR worldlights         76/8192         6688/720896   ( 0.9%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            494/32768        4940/327680   ( 1.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          6828/65536       13656/131072   (10.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     2233108/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      980297/16777216 ( 5.8%) 
+entdata               [variable]       20539/393216   ( 5.2%) 
+LDR ambient table     4374/65536       17496/262144   ( 6.7%) 
+HDR ambient table     4374/65536       17496/262144   ( 6.7%) 
+LDR leaf ambient      2124/65536       59472/1835008  ( 3.2%) 
+HDR leaf ambient      4374/65536      122472/1835008  ( 6.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      106104/0        ( 0.0%) 
+physics               [variable]      263716/4194304  ( 6.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 16521
+Writing c:\users\dfolkes\documents\github\rva-hammer-maps\reproduction\reproduction.bsp
+58 seconds elapsed
+
+
+
+materialPath: c:\program files (x86)\steam\steamapps\danfolkes\team fortress 2\tf\materials
+Loading c:\users\dfolkes\documents\github\rva-hammer-maps\reproduction\reproduction.vmf
+Can't find surfaceprop stone for material EGYPT/FLAT_WALL_SKINNY_01, using default
+Patching WVT material: maps/reproduction/brick/blendcobbletocobblesnow001_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-480.0 656.0 -47.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 5315: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-480.0 656.0 0.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 5315: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-480.0 656.0 51.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 5315: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-464.0 640.0 -55.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 5315: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-432.0 640.0 -59.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 5315: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (0.0 512.0 204.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 5357: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (0.0 512.0 196.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 5352: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (0.0 512.0 188.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 5347: 
+
+*** Suppressing further FindPortalSide errors.... ***
+0...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\dfolkes\documents\github\rva-hammer-maps\reproduction\reproduction.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (263716 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 391 texinfos to 365
+Reduced 9 texdatas to 8 (262 bytes to 229)
+Writing c:\users\dfolkes\documents\github\rva-hammer-maps\reproduction\reproduction.bsp
+3 seconds elapsed
+
+
+
+materialPath: c:\program files (x86)\steam\steamapps\danfolkes\team fortress 2\tf\materials
+Loading c:\users\dfolkes\documents\github\rva-hammer-maps\reproduction\reproduction.vmf
+Can't find surfaceprop stone for material EGYPT/FLAT_WALL_SKINNY_01, using default
+Patching WVT material: maps/reproduction/brick/blendcobbletocobblesnow001_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-480.0 656.0 -47.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 5315: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-480.0 656.0 0.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 5315: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-480.0 656.0 51.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 5315: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-464.0 640.0 -55.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 5315: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-432.0 640.0 -59.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 5315: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (0.0 512.0 204.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 5357: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (0.0 512.0 196.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 5352: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (0.0 512.0 188.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 5347: 
+
+*** Suppressing further FindPortalSide errors.... ***
+0...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (1)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\dfolkes\documents\github\rva-hammer-maps\reproduction\reproduction.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (263716 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 391 texinfos to 365
+Reduced 9 texdatas to 8 (262 bytes to 229)
+Writing c:\users\dfolkes\documents\github\rva-hammer-maps\reproduction\reproduction.bsp
+4 seconds elapsed
+
+
+
+4 threads
+reading c:\users\dfolkes\documents\github\rva-hammer-maps\reproduction\reproduction.bsp
+reading c:\users\dfolkes\documents\github\rva-hammer-maps\reproduction\reproduction.prt
+2118 portalclusters
+7227 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 255507 visible clusters (10.80%)
+Total clusters visible: 2366255
+Average clusters visible: 1117
+Building PAS...
+Average clusters audible: 1850
+visdatasize:980297  compressed from 1152192
+writing c:\users\dfolkes\documents\github\rva-hammer-maps\reproduction\reproduction.bsp
+4 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading c:\users\dfolkes\documents\github\rva-hammer-maps\reproduction\reproduction.bsp
+6235 faces
+2 degenerate faces
+1148590 square feet [165397008.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+6233 patches before subdivision
+zero area child patch
+75171 patches after subdivision
+76 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 9117509, max 1112
+transfer lists:  69.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0346 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/1024           96/49152    ( 0.2%) 
+brushes                713/8192         8556/98304    ( 8.7%) 
+brushsides            5731/65536       45848/524288   ( 8.7%) 
+planes                4462/65536       89240/1310720  ( 6.8%) 
+vertexes              9106/65536      109272/786432   (13.9%) 
+nodes                 4371/65536      139872/2097152  ( 6.7%) 
+texinfos               365/12288       26280/884736   ( 3.0%) 
+texdata                  8/2048          256/65536    ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 6235/65536      349160/3670016  ( 9.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2624/65536      146944/3670016  ( 4.0%) 
+leaves                4374/65536      139968/2097152  ( 6.7%) 
+leaffaces             6859/65536       13718/131072   (10.5%) 
+leafbrushes           3970/65536        7940/131072   ( 6.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            39635/512000     158540/2048000  ( 7.7%) 
+edges                21537/256000      86148/1024000  ( 8.4%) 
+LDR worldlights         76/8192         6688/720896   ( 0.9%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            494/32768        4940/327680   ( 1.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          6828/65536       13656/131072   (10.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     2233108/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      980297/16777216 ( 5.8%) 
+entdata               [variable]       20539/393216   ( 5.2%) 
+LDR ambient table     4374/65536       17496/262144   ( 6.7%) 
+HDR ambient table     4374/65536       17496/262144   ( 6.7%) 
+LDR leaf ambient      2124/65536       59472/1835008  ( 3.2%) 
+HDR leaf ambient      4374/65536      122472/1835008  ( 6.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      106104/0        ( 0.0%) 
+physics               [variable]      263716/4194304  ( 6.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 16521
+Writing c:\users\dfolkes\documents\github\rva-hammer-maps\reproduction\reproduction.bsp
+59 seconds elapsed
+
+
+
+materialPath: c:\program files (x86)\steam\steamapps\danfolkes\team fortress 2\tf\materials
+Loading c:\users\dfolkes\documents\github\rva-hammer-maps\reproduction\reproduction.vmf
+Can't find surfaceprop stone for material EGYPT/FLAT_WALL_SKINNY_01, using default
+Patching WVT material: maps/reproduction/brick/blendcobbletocobblesnow001_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-480.0 656.0 -47.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 5315: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-480.0 656.0 0.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 5315: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-480.0 656.0 51.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 5315: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-464.0 640.0 -55.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 5315: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-432.0 640.0 -59.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 5315: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (0.0 512.0 204.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 5357: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (0.0 512.0 196.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 5352: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (0.0 512.0 188.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 5347: 
+
+*** Suppressing further FindPortalSide errors.... ***
+0...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\dfolkes\documents\github\rva-hammer-maps\reproduction\reproduction.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (263716 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 391 texinfos to 365
+Reduced 9 texdatas to 8 (262 bytes to 229)
+Writing c:\users\dfolkes\documents\github\rva-hammer-maps\reproduction\reproduction.bsp
+3 seconds elapsed
